@@ -22,7 +22,6 @@ h2 {
 
 /* carousel */
 .carousel {
-  /* background-image: linear-gradient(to bottom, #333 0%, black 100%) !important; */
   background-image: linear-gradient(to bottom, #0f0c29, #302b63, #24243e) !important;
 }
 
