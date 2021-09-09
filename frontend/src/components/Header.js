@@ -20,7 +20,7 @@ const Header = () => {
       <Navbar expand='lg' collapseOnSelect className='navbar-light bg-light'>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand className="site-title">Gabe's Proshop</Navbar.Brand>
+            <Navbar.Brand className="site-title">Gabes Proshop</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
