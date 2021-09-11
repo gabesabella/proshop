@@ -36,7 +36,7 @@ const products = [
     numReviews: 0,
   },
   {
-    name: 'Sony Playstation 5 Pro White Version',
+    name: 'Sony Playstation 4 Pro White Version',
     image: '/images/playstation.jpg',
     description:
       'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
@@ -67,7 +67,7 @@ const products = [
     brand: 'Amazon',
     category: 'Electronics',
     price: 29.99,
-    countInStock: 11,
+    countInStock: 0,
     rating: 0,
     numReviews: 0,
   },

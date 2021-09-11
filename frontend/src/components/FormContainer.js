@@ -9,9 +9,7 @@ const FormContainer = ({ children }) => {
           {children}
         </Col>
       </Row>
-      
     </Container>
-    
   )
 }
 

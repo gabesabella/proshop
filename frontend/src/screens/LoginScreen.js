@@ -19,7 +19,7 @@ const LoginScreen = ({ location, history }) => {
   const redirect = location.search ? location.search.split('=')[1] : '/'
 
   useEffect(() => {
-    if(userInfo) {
+    if (userInfo) {
       history.push(redirect)
     }
   }, [history, userInfo, redirect])
@@ -55,7 +55,7 @@ const LoginScreen = ({ location, history }) => {
           ></Form.Control>
         </Form.Group>
 
-        <Button type='submit' variant='primary' className="mt-3">
+        <Button type='submit' variant='primary'>
           Sign In
         </Button>
       </Form>

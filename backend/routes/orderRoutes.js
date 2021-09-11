@@ -1,4 +1,3 @@
-
 import express from 'express'
 const router = express.Router()
 import {
@@ -7,7 +6,7 @@ import {
   updateOrderToPaid,
   updateOrderToDelivered,
   getMyOrders,
-  getOrders
+  getOrders,
 } from '../controllers/orderController.js'
 import { protect, admin } from '../middleware/authMiddleware.js'
 

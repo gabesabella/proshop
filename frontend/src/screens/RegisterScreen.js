@@ -22,14 +22,14 @@ const RegisterScreen = ({ location, history }) => {
   const redirect = location.search ? location.search.split('=')[1] : '/'
 
   useEffect(() => {
-    if(userInfo) {
+    if (userInfo) {
       history.push(redirect)
     }
   }, [history, userInfo, redirect])
 
   const submitHandler = (e) => {
     e.preventDefault()
-    if(password !== confirmPassword){
+    if (password !== confirmPassword) {
       setMessage('Passwords do not match')
     } else {
       dispatch(register(name, email, password))
@@ -43,7 +43,7 @@ const RegisterScreen = ({ location, history }) => {
       {error && <Message variant='danger'>{error}</Message>}
       {loading && <Loader />}
       <Form onSubmit={submitHandler}>
-       <Form.Group controlId='name'>
+        <Form.Group controlId='name'>
           <Form.Label>Name</Form.Label>
           <Form.Control
             type='name'
@@ -83,7 +83,7 @@ const RegisterScreen = ({ location, history }) => {
           ></Form.Control>
         </Form.Group>
 
-        <Button type='submit' variant='primary' className="mt-3">
+        <Button type='submit' variant='primary'>
           Register
         </Button>
       </Form>
