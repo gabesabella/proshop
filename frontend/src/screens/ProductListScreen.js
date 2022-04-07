@@ -92,6 +92,8 @@ const ProductListScreen = ({ history, match }) => {
         <Message variant='danger'>{error}</Message>
       ) : (
         <>
+        <div className='table-container'>
+
           <Table striped bordered hover responsive className='table-sm'>
             <thead>
               <tr>
@@ -129,6 +131,7 @@ const ProductListScreen = ({ history, match }) => {
               ))}
             </tbody>
           </Table>
+        </div>
           <Paginate pages={pages} page={page} isAdmin={true} />
         </>
       )}
