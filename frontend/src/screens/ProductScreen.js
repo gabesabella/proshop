@@ -174,7 +174,7 @@ const ProductScreen = ({ history, match }) => {
                   )}
                   {userInfo ? (
                     <Form onSubmit={submitHandler}>
-                      <Form.Group controlId='rating'>
+                      <Form.Group controlId='rating' className='mb-3'>
                         <Form.Label>Rating</Form.Label>
                         <Form.Control
                           as='select'
@@ -202,6 +202,7 @@ const ProductScreen = ({ history, match }) => {
                         disabled={loadingProductReview}
                         type='submit'
                         variant='primary'
+                        className='mt-3'
                       >
                         Submit
                       </Button>

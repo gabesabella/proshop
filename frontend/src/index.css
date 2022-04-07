@@ -60,9 +60,8 @@ h2 {
   min-height: 420px;
 }
 
-/* Update product button */
-.update-button {
-  margin-top: 10px !important;
+.card-img-top {
+  /* min-height: 250px; */
 }
 
 
