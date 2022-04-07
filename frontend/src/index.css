@@ -55,6 +55,11 @@ h2 {
   width: 400px;
 }
 
+/* Product Card */
+.product-card {
+  min-height: 420px;
+}
+
 @media (max-width: 700px) {
   .carousel img {
     height: 260px;
